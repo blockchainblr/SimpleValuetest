@@ -4,7 +4,7 @@ contract ValueContract {
     uint public value;
    
     function getValue() constant returns(uint) {
-        return value;
+        return values;
     }
     
     function setValue(uint newValue) {
